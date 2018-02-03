@@ -8,7 +8,7 @@ public class RandomGenerator {
     public String errorMessage = "lowerBound must not be greater than upperBound";
 
     /**
-     * throws and IllegalArgumentException if the lowerBound is greater than the upperBound
+     * throws an IllegalArgumentException if the lowerBound is greater than the upperBound
      * @param lowerBound the lower bound to check
      * @param upperBound the upper bound to check
      */
@@ -19,7 +19,7 @@ public class RandomGenerator {
     }
 
     /**
-     * throws and IllegalArgumentException if the lowerBound is greater than the upperBound
+     * throws an IllegalArgumentException if the lowerBound is greater than the upperBound
      * @param lowerBound the lower bound to check
      * @param upperBound the upper bound to check
      */
